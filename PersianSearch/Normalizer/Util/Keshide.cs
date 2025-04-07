@@ -22,13 +22,10 @@ public static class Keshide
 		}
 
 		const char Chr1600 = (char)1600; //ـ=1600
-		const char Chr8204 = (char)8204; //‌=8204
 #if NET8_0_OR_GREATER
-		return text.Replace(Chr1600.ToString(), "", StringComparison.OrdinalIgnoreCase)
-			.Replace(Chr8204.ToString(), "", StringComparison.OrdinalIgnoreCase);
+		return text.Replace(Chr1600.ToString(), "", StringComparison.OrdinalIgnoreCase);
 #else
-		return text.Replace(Chr1600.ToString(), "")
-			.Replace(Chr8204.ToString(), "");
+		return text.Replace(Chr1600.ToString(), "");
 #endif
 	}
 }

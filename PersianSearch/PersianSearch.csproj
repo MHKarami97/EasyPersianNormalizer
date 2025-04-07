@@ -24,7 +24,7 @@
 		<SignAssembly>true</SignAssembly>
 		<AssemblyOriginatorKeyFile>MHKarami97.snk</AssemblyOriginatorKeyFile>
 		<PublicSign>true</PublicSign>
-		<PackageId>SkipList</PackageId>
+		<PackageId>EasyPersianNormalizer</PackageId>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<ApplicationIcon>..\icon.ico</ApplicationIcon>
 		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
